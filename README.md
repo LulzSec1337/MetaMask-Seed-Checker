@@ -1,2 +1,5 @@
-# MetaMask-Seed-Checker
-Metamask Seed phrase Bruter
+# Metamask_Seed_Bruteforce
+seed bruteforce script to recover wallets from metamask using selenium. 
+Permutations of 2048 english words in 12 positions, 
+just POC, 
+don't waste time
