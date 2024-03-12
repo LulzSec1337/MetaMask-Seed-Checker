@@ -57,7 +57,7 @@ def login():
         driver.find_element_by_xpath('//*[@id="confirm-password"]').send_keys(PASSWORD)
         source_code = driver.page_source
 
-        if 'Frase semilla no válida.' not in source_code:
+        if 'invalid seed phrase.' not in source_code:
             print(seed)
         
 
